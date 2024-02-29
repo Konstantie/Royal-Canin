@@ -5,17 +5,7 @@ sql/protocolv1/o/7538404107263477/1015-115500-k5vlg896
 
 https://repo1.maven.org/maven2/com/crealytics/spark/excel_2.12/0.13.7/excel_2.12-0.13.7.jar
 
-
-
 df0 = spark.read.format("csv")\
     .option("header", "true")\
     .option("inferSchema", "true")\
     .load("dbfs:/FileStore/shared_uploads/mmm_test.csv")
-
-
-
-
-
-
-
-

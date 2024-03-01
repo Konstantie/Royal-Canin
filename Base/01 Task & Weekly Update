@@ -149,15 +149,6 @@ PRD 多个Phase
 背景
 
 
-FGS:
-no good analysis
-royal canin
-
-
-CDP = customer smsm P
-RCDAP
-DAP = databricks
-EAP = 
 
 -------------------------Weekly-------------------------------------------------------------
 2024/02/12
@@ -169,7 +160,7 @@ EAP =
             propose: 1. a document will be needed to KT, and 
                     2.will give a brief on the method and a KT to Morgan.
     this week:
-        write email and KT doc;
+        write email and KT doc
         DP BA(BI, DI, transferring)
             the week after is SP BA
         trace: Justin's proj
@@ -195,10 +186,24 @@ EAP =
 
 2024/03/04
     
-    LW: drafting  Wit Eye DP SP
-        
-    CW: meeting with DPSP and discuss for another round about new req.
+    LW: 
+        drafting  Wit Eye DP SP, understanding the BI logic
+    CW: 
+        meeting with DPSP and discuss for another round about new req.
+        EDA data cleasing
+        ANZ new DAX requirement from Morgen, along with solution
+            [1:20 PM] Tso, Kaiyuan (Contractor)
+            我的部分我会说
+            DAX要改比较麻烦，然后我贴个帖子（里面是做法），再贴个demo（里面是实现）说明这样维护太复杂了。放弃。
+            然后说自己1.分类DAX文件夹，2.给份计算文档。
 
 
 
+
+
+
+
+
+
+Continue...
 

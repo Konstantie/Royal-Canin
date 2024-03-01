@@ -1,3 +1,7 @@
+
+
+
+
 学习任务: 
     给自己的
         还是要看财务ppt, 什么是RSV什么是
@@ -64,17 +68,6 @@ SFA sales force auto  = visit
 ETL 库存
 TPM trade promo manage
 
-RCLMS = 接demand 产生生产计划
-WMS = 拣货+发运
-TMS = 到哪
-webshop = 电商下单, 退货,  客户满意度
-manual data = Lead time 
-
-
-toC = 
-ComsumerDataPlatform = 
-DataManualPlatform = 投放, 消费者画像, 微信运营
-CRM
 
 
 
@@ -88,24 +81,15 @@ Agenda
             Brand&Pet Owner 偏品牌,大渠道 national 层面
             职能 CopAffair P&O MKT SupplyChain Sales Admin NSOP运营
             渠道 PRO ECOM SPT 
-                
-
         [] Project background & status - Simon  
-        -- 还在看, 不知道哪里看
             跟着的有哪些项目
             每个项目的目标
-
-
         [] CN associate onboarding materials - Kaiyuan
-        -- 新员工入职培训材料
-
-
+            -- 新员工入职培训材料
         [] CN bootcamp - Kaiyuan
-        -- bootcamp
-
-
+            -- bootcamp
         [] Global D&A materials - Simon
-        -- ppt
+            -- ppt
 
     2. VET数据EDA
 
@@ -178,20 +162,10 @@ TEMP:
     数据 需求阶段 钱和时间 现状
 
 
-    SpecialPT中国, 重点宠物店 线上也叫 == PetSpecialtyRetailing
-        70%
-        30%
-        40%电商
-    VET 约等于强生
-        20%
-    PRO 线下 预产 shelter breeder养殖中心
-        10%
-        club: wholesale in bulk
-        体力药
-        选美比赛
 
 
-CRM 2024/02/29
+
+CRM 2024/02/29开会提到
     Omni CRM
     微宠医
     爱宠会
@@ -223,6 +197,12 @@ Vocab
     SFA 计算? 
     sellout: 
     VMI如何就cost saving了
+    FGS:
+    no good analysis
+    CDP = customer smsm P
+    RCDAP
+    DAP = databricks
+    EAP = 
 
 Knowledge:
     我们有多少家门店? 几千门店
@@ -235,3 +215,27 @@ Knowledge:
     普良
     纯种粮
     日粮
+
+    SpecialPT中国, 重点宠物店 线上也叫 == PetSpecialtyRetailing
+        70%
+        30%
+        40%电商
+    VET 约等于强生
+        20%
+    PRO 线下 预产 shelter breeder养殖中心
+        10%
+        club: wholesale in bulk
+        体力药
+        选美比赛
+
+RCLMS = 接demand 产生生产计划
+WMS = 拣货+发运
+TMS = 到哪
+webshop = 电商下单, 退货,  客户满意度
+manual data = Lead time 
+
+
+toC = 
+ComsumerDataPlatform = 
+DataManualPlatform = 投放, 消费者画像, 微信运营
+CRM

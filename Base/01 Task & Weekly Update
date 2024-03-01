@@ -1,9 +1,38 @@
 --------------------------------------------------------TASK---------------------------------------------------------------------
-画图, 确认指标. 
+01 画图, 确认指标. 
 
-VET 研究
+02 VET 研究
+        2. VET数据EDA
+            看VET
+                客观
+                是不是可以join起来, 有哪些维度对不上的 -- 都是可以join起来的, 但缺乏主键customerID, 粒度不统一. 缺乏MDM医生(手机号为主键?), 门店主表(地址ID?), 授课表只有机读UID,没有电话号码
 
-Task02
+                    <采集表>为什么时间这么贴近的log 
+                    填写内容质量: 格式一会文字一会123
+                    当天取最后一条情况下,90%没填,字段是否重要?
+
+                
+                稀疏 or 缺失情况 -- 指标采集缺失大量数据 
+                事实 or log更新频率 -- 实时更新,数据采集一天有多次,但是是否T+0不太清楚
+
+                其他: 说明数据质量/可用程度的EDA -- 只看能匹配上的数据可以进行分析
+                
+
+                主观
+                是否有意义通过某种分类赋值or其他方式填充 -- 没有, (可尝试:看拜访处的数据推测填列.)
+                    -- 现状下什么能做?
+
+                整个数据对做产能预测算法模型, 质量怎么样 -- 请讨论,这个暂时不知道如何作答
+                    这个数据如何推导产能?思路? 仅sales做还是做什么?
+                    可做: 授课对销售的相关性, 行为分析, 用户肖像分析???,
+
+            
+            custoemr 品牌店 / 
+            门店 code
+
+                医生
+
+03 Task
     出邮件ANZ
     solution, calculation group is archievable but too complicated, 
         propose: 1. a document will be needed to KT, and 
@@ -22,12 +51,12 @@ Task02
     给我pbi的东西
 
 项目相关
-    昨天开会 in/out berg 项目咋回事？ 业务背景, 做什么？
+    昨天开会 in/out berg 项目咋回事?  业务背景, 做什么? 
 
     澳洲 Sales Revenue Management 
             两月份时间整理datamodel owner Scott
         -- Berg 在跟, 看看我能怎么帮, 开权限
-        -- Jackie 怎么想？怎么用？ 
+        -- Jackie 怎么想? 怎么用?  
 
         P3 Caterina CRM 
         -- Justine Cai Fin, 数字错了, 调整字段 -- jackie做的
@@ -62,8 +91,8 @@ universe
 
     VET 
     假设数据可以用
-        销量变化？ 绝对值？
-        如何组织数据, 回答销量？
+        销量变化?  绝对值? 
+        如何组织数据, 回答销量? 
 
     供应链项目
 
@@ -105,32 +134,19 @@ PRD 多个Phase
 数据需求:
     命名:
     表的需求: 关键信息. 
-        主数据以什么为标准？
+        主数据以什么为标准? 
         数据对接: 从哪个系统来, 成本和大致时间. 
 
 计算逻辑: 
     DAX: 
     assetizing DAX: 
 
-
-
 建模: 
     自己要写的
 
-
-
 目前需求
 
-
 背景
-
-啥事, 希望达到什么
-    以前做VET Home Deli now make similar one for myRC    
-when finish
-    
-
-日本销量不好, 量下降但是价格上升很多, 导致销量还好高了一点点
-Data foundation for myRC D2C
 
 
 FGS:
@@ -138,78 +154,48 @@ no good analysis
 royal canin
 
 
-
-CDP
+CDP = customer smsm P
 RCDAP
-DAP
-EAP
+DAP = databricks
+EAP = 
 
+-------------------------Weekly-------------------------------------------------------------
+2024/02/12
+    last week until weekend:
+        CRM Data Explore SQL -- done, 
+        ANZ category Sales optimization -- 
+        chat with Jaclie and ask DAX optmization; POC done , solution too complicated for business DAX writer
+        solution, calculation group is archievable but too complicated, 
+            propose: 1. a document will be needed to KT, and 
+                    2.will give a brief on the method and a KT to Morgan.
+    this week:
+        write email and KT doc;
+        DP BA(BI, DI, transferring)
+            the week after is SP BA
+        trace: Justin's proj
 
-
-last week until weekend:
     CRM Data Explore SQL -- done, 
     ANZ category Sales optimization -- 
-    chat with Jaclie and ask DAX optmization; POC done , solution too complicated for business DAX writer
-    solution, calculation group is archievable but too complicated, 
-        propose: 1. a document will be needed to KT, and 
-                2.will give a brief on the method and a KT to Morgan.
-this week:
-    write email and KT doc;
-    DP BA(BI, DI, transferring)
-        the week after is SP BA
-    trace: Justin's proj
-
-
-
-
-
-CRM Data Explore SQL -- done, 
-ANZ category Sales optimization -- 
-    chat with Jaclie and ask DAX optmization; POC done , solution too complicated for business DAX writer
+        chat with Jaclie and ask DAX optmization; POC done , solution too complicated for business DAX writer
     
 
+2024/02/19
+    Last week
+        met with supply chain team will discuss later on this week
+        Simon training on the Financial part and company frame
+        learn Simon example of Transformer
+    This week /Learning/sharing
+        supply chain discuss
+        start optmization on ANZ Category Sales Dashboard
+        check data bricks 
+
+    Support needed
+        Simon explanation on the example of Transformer
+        try to mnt the datalakegen2 resource to the powerbi workspace, need help from alex and permissions
+
+2024/03/04
+    
+上周
 
 
 
-
---------------------------------------------------------------------------------------------------------------------------------
-Last week
-    met with supply chain team will discuss later on this week
-    Simon training on the Financial part and company frame
-    learn Simon example of Transformer
-This week /Learning/sharing
-    supply chain discuss
-    start optmization on ANZ Category Sales Dashboard
-    check data bricks 
-
-Support needed
-    Simon explanation on the example of Transformer
-    try to mnt the datalakegen2 resource to the powerbi workspace, need help from alex and permissions
-
-
-    can help Ri Zeyon on Data exploration, will find time to talk to him. 
-et res PBI -- Kazuya
-Aus ANZ Category Sales -- Berg
-Leave or other plan
-
-
-Personal Devlopment Plan: what is this?
-the way I develop the 
-
-
-每件事情要达到什么archieve
-ANZ Category Sales -- 2weeks
-    维护成本很高, 经过我方接受, 
-VET -- unkown
-    discuss -- ML -- book another
-
-suplly chain discus --TBD
-Kazuya san -- TBD but small
-
-PRD discuss -- 
-
-APAC -- ask dennis -- ask Justin
-
-Clement -- 什么事情
-
-    调研 -- 

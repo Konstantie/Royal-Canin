@@ -5,15 +5,14 @@
 
 2024/3/1开ML会议: 
     会议中提到: 机器学习提升就在身边, 拿出日常报表简单按照猫狗干湿粮随便按年份切分了一下, 然后说如果法国地区只有1%的增加, 整个体谅也很了不起了
-    日本也曾经说过, RSV增长是因为价格涨了而不是Unit涨, 所以如果价涨而销量下跌, 我们的定价和时长毗婆我们的决策导致我们只能这样做是没办法的吗？
-    要不要采取什么策略来知道价量分析和价量场呢？
+    日本也曾经说过, RSV增长是因为价格涨了而不是Unit涨, 所以如果价涨而销量下跌, 我们的定价和时长毗婆我们的决策导致我们只能这样做是没办法的吗? 
+    要不要采取什么策略来知道价量分析和价量场呢? 
     start as simple, complete as a system.
 
 RC产品有哪几大系列/分类
 
     干湿粮
 
-        
         PRO
             CLUB系列犬粮
                 入门级
@@ -39,18 +38,16 @@ RC产品有哪几大系列/分类
 
 
 
-RC中国有哪几个DC(仓库)2018年有15家工厂
-    5个
+RC中国有哪几个DistributionCenter(DC)(仓库)2018年全球有15家工厂
+    5个仓库
+    NDC national
     BJ RDC 北京
     CD RDC 成都
     SY RDC 沈阳
-    NDC national
     GZ RDC 广州
 
 
 COGS= prime + Manufacture Convertion Cost + LCC (做生意的客户) + Copack
-
-
 MAC Margin after Convertion 毛利
 A&CPD = adv + Consumer Promo + Display
 OVH = 营业费用工资差旅会议
@@ -61,7 +58,7 @@ Digital Tech
 D&A: Data and Analytics 
 DT: Data Team
 
-Demand Planning: 物流中这个负责的是什么任务？
+Demand Planning: 物流中这个负责的是什么任务? 
 
 SFA sales force auto  = visit
 ETL 库存
@@ -78,20 +75,6 @@ toC =
 ComsumerDataPlatform = 
 DataManualPlatform = 投放, 消费者画像, 微信运营
 CRM
-
-几千门店
-
-Vocab
-    Pillar支柱, 指的是 NMKT(普粮), SPT(PSR)(电商与宠物店), PRO(繁育救助), VET(医粮), CA(???)这几个分类
-    VET:
-    PSR:
-    PRO:
-    处方粮: 
-    VHD: Vet Home Delivery
-    DC: distribution Center
-    SFA 计算？
-    sellout: 
-    VMI如何就cost saving了
 
 
 
@@ -127,7 +110,6 @@ Agenda
     2. VET数据EDA
 
         看VET
-            [昨天 15:42] Deng, Simon
             客观
             是不是可以join起来, 有哪些维度对不上的 -- 都是可以join起来的, 但缺乏主键customerID, 粒度不统一. 缺乏MDM医生(手机号为主键?), 门店主表(地址ID?), 授课表只有机读UID,没有电话号码
 
@@ -153,16 +135,17 @@ Agenda
         
         custoemr 品牌店 / 
         门店 code
+
             医生
             
     3. PBI跑通(tabular model和报表, 分别一个case)
-    -- 需求是个啥？什么使用场景？
+    -- 需求是个啥? 什么使用场景? 
     -- 需要有 公共工作区上; pro账号或者premium账号;
 
     4. 分析工作流
     
     思考文档结构, 输出 measurement 是什么
-    物流仓储
+    Wit Eye物流仓储
 
     讨论点 重要节点: 
     看得懂, 知道沟通哪些. 
@@ -171,7 +154,7 @@ Agenda
         项目schedule, 等文档
         BI
         Biz Investigation Data Investigation, 环境(链接资源), 数据字典, BRD(场景描述, 和计算逻辑, test use case), 项目价值.
-        我们会出: FRD
+        我们会出: PRD/FRD
 
         分析
         DA
@@ -186,16 +169,7 @@ Agenda
         ROC/MSE评估,
         模型优化,可解释性,报告制作
 
-Knowledge:
-    产品线
-    干粮
-        膨化
-    湿粮
-        罐头
 
-    普良
-    纯种粮
-    日粮
 
 
 TEMP:
@@ -217,14 +191,14 @@ TEMP:
         选美比赛
 
 
-CRM
+CRM 2024/02/29
     Omni CRM
     微宠医
     爱宠会
     D2C
     爱评友
 
-    func core, 用户整合？
+    func core, 用户整合? 
 
     iCideling
 
@@ -234,4 +208,30 @@ CRM
     DT
 
     one id
-    会员通打通, CDP有哪些东西能不能 告诉我一下？
+    会员通打通, CDP有哪些东西能不能 告诉我一下? 
+
+
+
+Vocab
+    Pillar支柱, 指的是 NMKT(普粮), SPT(PSR)(电商与宠物店), PRO(繁育救助), VET(医粮), CA(???)这几个分类
+    VET:
+    PSR:
+    PRO:
+    处方粮: 
+    VHD: Vet Home Delivery
+    DC: distribution Center
+    SFA 计算? 
+    sellout: 
+    VMI如何就cost saving了
+
+Knowledge:
+    我们有多少家门店? 几千门店
+    产品线
+    干粮
+        膨化
+    湿粮
+        罐头
+
+    普良
+    纯种粮
+    日粮

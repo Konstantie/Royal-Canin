@@ -100,7 +100,7 @@ IFERROR(
 
 
 如何写出CY-LY的适用条件在一个条件内
-也就是必须写成 LY = F(CY)  = CY-12 的递进层时间关系，我上面的才能被统一
+也就是必须写成 LY = F(CY)  = CY-12 的递进层时间关系, 我上面的才能被统一
 CY = 
 CALCULATE(SELECTEDMEASURE(),
     'd_pbi_load_agg'[CALENDAR_MONTH2]>=SELECTEDVALUE('d_calendar2_slicer table'[CALENDAR_MONTH2])-11&&'d_pbi_load_agg'[CALENDAR_MONTH2]<=SELECTEDVALUE('d_calendar2_slicer table'[CALENDAR_MONTH2])
@@ -124,7 +124,7 @@ DAX_1_A = CALCULATE([DAX_1],step_A[Name] = "A")
 
 
 
-step_1: --- 改第一参数，需要将自己名字写在ISSELECTEDMEASURE()中
+step_1: --- 改第一参数, 需要将自己名字写在ISSELECTEDMEASURE()中
 step1_1 = IF(ISSELECTEDMEASURE([DAX_1]),1)
 step1_2 = IF(ISSELECTEDMEASURE([DAX_1]),2)
 

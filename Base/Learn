@@ -1,11 +1,11 @@
-学习任务：
+学习任务: 
     给自己的
-        还是要看财务ppt，什么是RSV什么是
+        还是要看财务ppt, 什么是RSV什么是
         学习
 
-2024/3/1开ML会议：
-    会议中提到：机器学习提升就在身边，拿出日常报表简单按照猫狗干湿粮随便按年份切分了一下，然后说如果法国地区只有1%的增加，整个体谅也很了不起了
-    日本也曾经说过，RSV增长是因为价格涨了而不是Unit涨，所以如果价涨而销量下跌，我们的定价和时长毗婆我们的决策导致我们只能这样做是没办法的吗？
+2024/3/1开ML会议: 
+    会议中提到: 机器学习提升就在身边, 拿出日常报表简单按照猫狗干湿粮随便按年份切分了一下, 然后说如果法国地区只有1%的增加, 整个体谅也很了不起了
+    日本也曾经说过, RSV增长是因为价格涨了而不是Unit涨, 所以如果价涨而销量下跌, 我们的定价和时长毗婆我们的决策导致我们只能这样做是没办法的吗？
     要不要采取什么策略来知道价量分析和价量场呢？
     start as simple, complete as a system.
 
@@ -39,7 +39,7 @@ RC产品有哪几大系列/分类
 
 
 
-RC中国有哪几个DC（仓库）2018年有15家工厂
+RC中国有哪几个DC(仓库)2018年有15家工厂
     5个
     BJ RDC 北京
     CD RDC 成都
@@ -70,24 +70,168 @@ TPM trade promo manage
 RCLMS = 接demand 产生生产计划
 WMS = 拣货+发运
 TMS = 到哪
-webshop = 电商下单, 退货， 客户满意度
+webshop = 电商下单, 退货,  客户满意度
 manual data = Lead time 
 
 
 toC = 
 ComsumerDataPlatform = 
-DataManualPlatform = 投放，消费者画像，微信运营
+DataManualPlatform = 投放, 消费者画像, 微信运营
 CRM
 
 几千门店
 
 Vocab
+    Pillar支柱, 指的是 NMKT(普粮), SPT(PSR)(电商与宠物店), PRO(繁育救助), VET(医粮), CA(???)这几个分类
     VET:
     PSR:
     PRO:
-    处方粮：
+    处方粮: 
     VHD: Vet Home Delivery
     DC: distribution Center
     SFA 计算？
-    sellout：
+    sellout: 
     VMI如何就cost saving了
+
+
+
+
+Agenda
+    1. 看, 学, 见checklist:在做, 见如下, 需帮助 -- 
+
+        [] Org (CN business, D&A, DT) - Kaiyuan/Simon
+            中国的 hierarchy 部门 人员 每个部门智能是啥
+            大总管General Manager
+            Brand&Pet Owner 偏品牌,大渠道 national 层面
+            职能 CopAffair P&O MKT SupplyChain Sales Admin NSOP运营
+            渠道 PRO ECOM SPT 
+                
+
+        [] Project background & status - Simon  
+        -- 还在看, 不知道哪里看
+            跟着的有哪些项目
+            每个项目的目标
+
+
+        [] CN associate onboarding materials - Kaiyuan
+        -- 新员工入职培训材料
+
+
+        [] CN bootcamp - Kaiyuan
+        -- bootcamp
+
+
+        [] Global D&A materials - Simon
+        -- ppt
+
+    2. VET数据EDA
+
+        看VET
+            [昨天 15:42] Deng, Simon
+            客观
+            是不是可以join起来, 有哪些维度对不上的 -- 都是可以join起来的, 但缺乏主键customerID, 粒度不统一. 缺乏MDM医生(手机号为主键?), 门店主表(地址ID?), 授课表只有机读UID,没有电话号码
+
+                <采集表>为什么时间这么贴近的log 
+                填写内容质量: 格式一会文字一会123
+                当天取最后一条情况下,90%没填,字段是否重要?
+
+            
+            稀疏 or 缺失情况 -- 指标采集缺失大量数据 
+            事实 or log更新频率 -- 实时更新,数据采集一天有多次,但是是否T+0不太清楚
+
+            其他: 说明数据质量/可用程度的EDA -- 只看能匹配上的数据可以进行分析
+            
+
+            主观
+            是否有意义通过某种分类赋值or其他方式填充 -- 没有, (可尝试:看拜访处的数据推测填列.)
+                -- 现状下什么能做?
+
+            整个数据对做产能预测算法模型, 质量怎么样 -- 请讨论,这个暂时不知道如何作答
+                这个数据如何推导产能?思路? 仅sales做还是做什么?
+                可做: 授课对销售的相关性, 行为分析, 用户肖像分析???,
+
+        
+        custoemr 品牌店 / 
+        门店 code
+            医生
+            
+    3. PBI跑通(tabular model和报表, 分别一个case)
+    -- 需求是个啥？什么使用场景？
+    -- 需要有 公共工作区上; pro账号或者premium账号;
+
+    4. 分析工作流
+    
+    思考文档结构, 输出 measurement 是什么
+    物流仓储
+
+    讨论点 重要节点: 
+    看得懂, 知道沟通哪些. 
+
+    分析工作流: 
+        项目schedule, 等文档
+        BI
+        Biz Investigation Data Investigation, 环境(链接资源), 数据字典, BRD(场景描述, 和计算逻辑, test use case), 项目价值.
+        我们会出: FRD
+
+        分析
+        DA
+        数据来源, 探索&理解/说明, 
+        , 假设逻辑, 验证证明, 需求说明(定性, 判断, 相关性排序)
+        验证条件, 验证方法, 验证结论, 复盘
+        我们会出: 验证报告, 影响范围
+
+        DS: (讨论)
+        数据来源, 探索&理解/说明
+        预处理,特征工程, 模型选择和训练
+        ROC/MSE评估,
+        模型优化,可解释性,报告制作
+
+Knowledge:
+    产品线
+    干粮
+        膨化
+    湿粮
+        罐头
+
+    普良
+    纯种粮
+    日粮
+
+
+TEMP:
+
+    输入输出 相关人 价值 
+    数据 需求阶段 钱和时间 现状
+
+
+    SpecialPT中国, 重点宠物店 线上也叫 == PetSpecialtyRetailing
+        70%
+        30%
+        40%电商
+    VET 约等于强生
+        20%
+    PRO 线下 预产 shelter breeder养殖中心
+        10%
+        club: wholesale in bulk
+        体力药
+        选美比赛
+
+
+CRM
+    Omni CRM
+    微宠医
+    爱宠会
+    D2C
+    爱评友
+
+    func core, 用户整合？
+
+    iCideling
+
+    CDP / MA ???
+    IC
+
+    DT
+
+    one id
+    会员通打通, CDP有哪些东西能不能 告诉我一下？

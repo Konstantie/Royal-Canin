@@ -1,134 +1,19 @@
 
-出邮件ANZ
-画图，确认指标。
+画图, 确认指标. 
+
 VET 研究
+
+Task02
+    出邮件ANZ
+    solution, calculation group is archievable but too complicated, 
+        propose: 1. a document will be needed to KT, and 
+                2.will give a brief on the method and a KT to Morgan.
 
 ()事件对销量的影响
 
 
 
 
-
-
-Agenda
-    1. 看，学，见checklist:在做，见如下，需帮助 -- 
-
-        [] Org (CN business, D&A, DT) - Kaiyuan/Simon
-            中国的 hierarchy 部门 人员 每个部门智能是啥
-            大总管General Manager
-            Brand&Pet Owner 偏品牌,大渠道 national 层面
-            职能 CopAffair P&O MKT SupplyChain Sales Admin NSOP运营
-            渠道 PRO ECOM SPT 
-                
-
-        [] Project background & status - Simon  
-        -- 还在看，不知道哪里看
-            跟着的有哪些项目
-            每个项目的目标
-
-
-        [] CN associate onboarding materials - Kaiyuan
-        -- 新员工入职培训材料
-
-
-        [] CN bootcamp - Kaiyuan
-        -- bootcamp
-
-
-        [] Global D&A materials - Simon
-        -- ppt
-
-    2. VET数据EDA
-
-        看VET
-            [昨天 15:42] Deng, Simon
-            客观
-            是不是可以join起来，有哪些维度对不上的 -- 都是可以join起来的，但缺乏主键customerID, 粒度不统一. 缺乏MDM医生(手机号为主键?)，门店主表(地址ID?), 授课表只有机读UID,没有电话号码
-
-                <采集表>为什么时间这么贴近的log 
-                填写内容质量: 格式一会文字一会123
-                当天取最后一条情况下,90%没填,字段是否重要?
-
-            
-            稀疏 or 缺失情况 -- 指标采集缺失大量数据 
-            事实 or log更新频率 -- 实时更新,数据采集一天有多次,但是是否T+0不太清楚
-
-            其他: 说明数据质量/可用程度的EDA -- 只看能匹配上的数据可以进行分析
-            
-
-            主观
-            是否有意义通过某种分类赋值or其他方式填充 -- 没有, (可尝试:看拜访处的数据推测填列.)
-                -- 现状下什么能做?
-
-            整个数据对做产能预测算法模型, 质量怎么样 -- 请讨论,这个暂时不知道如何作答
-                这个数据如何推导产能?思路? 仅sales做还是做什么?
-                可做: 授课对销售的相关性, 行为分析, 用户肖像分析???,
-
-        
-        custoemr 品牌店 / 
-        门店 code
-            医生
-            
-    3. PBI跑通（tabular model和报表，分别一个case）
-    -- 需求是个啥？什么使用场景？
-    -- 需要有 公共工作区上; pro账号或者premium账号;
-
-    4. 分析工作流
-    
-    思考文档结构，输出 measurement 是什么
-    物流仓储
-
-    讨论点 重要节点: 
-    看得懂，知道沟通哪些。
-
-    分析工作流: 
-        项目schedule, 等文档
-        BI
-        Biz Investigation Data Investigation, 环境(链接资源), 数据字典, BRD(场景描述，和计算逻辑, test use case), 项目价值.
-        我们会出: FRD
-
-        分析
-        DA
-        数据来源, 探索&理解/说明, 
-        , 假设逻辑, 验证证明, 需求说明(定性, 判断, 相关性排序)
-        验证条件, 验证方法, 验证结论, 复盘
-        我们会出: 验证报告, 影响范围
-
-        DS: (讨论)
-        数据来源, 探索&理解/说明
-        预处理,特征工程, 模型选择和训练
-        ROC/MSE评估,
-        模型优化,可解释性,报告制作
-
-Knowledge:
-    产品线
-    干粮
-        膨化
-    湿粮
-        罐头
-
-    普良
-    纯种粮
-    日粮
-
-
-TEMP:
-
-    输入输出 相关人 价值 
-    数据 需求阶段 钱和时间 现状
-
-
-    SpecialPT中国，重点宠物店 线上也叫 == PetSpecialtyRetailing
-        70%
-        30%
-        40%电商
-    VET 约等于强生
-        20%
-    PRO 线下 预产 shelter breeder养殖中心
-        10%
-        club: wholesale in bulk
-        体力药
-        选美比赛
 
 权限,需要的下载: 
     想要申请 premium -> Alex:试用过了再申请就够了
@@ -137,11 +22,11 @@ TEMP:
     给我pbi的东西
 
 项目相关
-    昨天开会 in/out berg 项目咋回事？ 业务背景，做什么？
+    昨天开会 in/out berg 项目咋回事？ 业务背景, 做什么？
 
     澳洲 Sales Revenue Management 
             两月份时间整理datamodel owner Scott
-        -- Berg 在跟，看看我能怎么帮, 开权限
+        -- Berg 在跟, 看看我能怎么帮, 开权限
         -- Jackie 怎么想？怎么用？ 
 
         P3 Caterina CRM 
@@ -171,23 +56,23 @@ universe
 
 
 
-下周：
-    文档性工作规范细化：（下周讨论）
-    流程，需求确认，提给alex
+下周: 
+    文档性工作规范细化: (下周讨论)
+    流程, 需求确认, 提给alex
 
     VET 
     假设数据可以用
         销量变化？ 绝对值？
-        如何组织数据，回答销量？
+        如何组织数据, 回答销量？
 
     供应链项目
 
-    给出不规范比例：
+    给出不规范比例: 
     
     [12:35] Deng, Simon
     今天问题 
     RC产品有哪几大系列/分类
-    RC中国有哪几个DC（仓库）
+    RC中国有哪几个DC(仓库)
 
 
 -----------------------------------------------------------------------
@@ -196,40 +81,40 @@ universe
     pt 明早发你
 
 
-BRD 为什么做这件事情， 业务价值， ROI
+BRD 为什么做这件事情,  业务价值,  ROI
 PRD 多个Phase
 以交付单元
 
 
-必要素：
-产出内容：产出什么样，要找人确认。
+必要素: 
+产出内容: 产出什么样, 要找人确认. 
 交互
 定义
 
-数据相关：
+数据相关: 
 字段取值
 公式
 指标库
 
 
-要：
-设计，草图(粗略图)最快的方式搞出来
+要: 
+设计, 草图(粗略图)最快的方式搞出来
     USE Case
-    UI逻辑：
+    UI逻辑: 
 
 数据需求:
     命名:
-    表的需求：关键信息。
+    表的需求: 关键信息. 
         主数据以什么为标准？
-        数据对接：从哪个系统来，成本和大致时间。
+        数据对接: 从哪个系统来, 成本和大致时间. 
 
-计算逻辑：
-    DAX：
-    assetizing DAX：
+计算逻辑: 
+    DAX: 
+    assetizing DAX: 
 
 
 
-建模：
+建模: 
     自己要写的
 
 
@@ -239,12 +124,12 @@ PRD 多个Phase
 
 背景
 
-啥事，希望达到什么
+啥事, 希望达到什么
     以前做VET Home Deli now make similar one for myRC    
 when finish
     
 
-日本销量不好，量下降但是价格上升很多，导致销量还好高了一点点
+日本销量不好, 量下降但是价格上升很多, 导致销量还好高了一点点
 Data foundation for myRC D2C
 
 
@@ -274,39 +159,16 @@ this week:
         the week after is SP BA
     trace: Justin's proj
 
-need help:
-    Dennis to connect to Justin and asking the stakeholder along with their req & deadline
 
-ask Kazuya about still i am under consideration of help JP?
+
 
 
 CRM Data Explore SQL -- done, 
 ANZ category Sales optimization -- 
     chat with Jaclie and ask DAX optmization; POC done , solution too complicated for business DAX writer
-    solution, calculation group is archievable but too complicated, 
-    propose: 1. a document will be needed to KT, and 
-            2.will give a brief on the method and a KT to Morgan.
+    
 
 
 
-
-CRM
-    Omni CRM
-    微宠医
-    爱宠会
-    D2C
-    爱评友
-
-    func core, 用户整合？
-
-    iCideling
-
-    CDP / MA ???
-    IC
-
-    DT
-
-    one id
-    会员通打通，CDP有哪些东西能不能 告诉我一下？
 
 

@@ -1,28 +1,63 @@
+链接信息_outdated:
+    https://dp5eq6lq4l.feishu.cn/docx/YUJOd4qUOoWKaMxt3NmcoSKsntg
+    老地址
+    ppt:
+    https://team.effem.com/:p:/r/sites/RCDAAPAC/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B0843f4b2-22f1-4f93-a07e-171230cf8c3f%7D&wdOrigin=TEAMS-WEB.teamsSdk_ns.bim&wdExp=TEAMS-CONTROL&wdhostclicktime=1709026551706&web=1
+    excel:
+    - https://team.effem.com/:x:/r/sites/RCDAAPAC/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7Beef79aa0-a53d-4350-a08e-f0f60810c508%7D&wdOrigin=TEAMS-WEB.teamsSdk_ns.bim&wdExp=TEAMS-CONTROL&wdhostclicktime=1709026560642&web=1
+
+需求:
+    能回溯到历史时期和历史预测的版本,
+    所有的预测相关的计算都是换算成单位: 吨
+    Ach% = sales_ton(Pn)/fcst_ton(Pn)
+    SFA%
+
+    1-ABS(FCST_Ton-Sales_Ton)/FCST_Ton
+
+    SFA 计算? 
+
+    看当期 PTD
+    SFA%:= 
+        1-SUMX(SKU,ABS(FCST_Ton-Sales_Ton))/SUM(FCST_Ton) -- 没有完整sales所以用fcst当tgt
+    SFA Loss:= 
+        SUMX(SKU,ABS(FCST_Ton-Sales_Ton))/SUM(FCST_Ton)
+    看往期 Final
+    SFA%:= 
+        1-SUMX(SKU,ABS(FCST_Ton-Sales_Ton))/SUM(Sales_Ton) -- 没有完整sales所以用fcst当tgt
+    SFA Loss:= 
+        SUMX(SKU,ABS(FCST_Ton-Sales_Ton))/SUM(Sales_Ton) 
+    Sales表
+
+    sales_order, date, SKU(number,name), foreign_key(pillar, national), unit, ton_per_unit, Amt, Net_amt
+    fcst表
+    SKU, foreign_key(pillar, national)
 
 
-能回溯到历史时期和历史预测的版本,
-所有的预测相关的计算都是换算成单位: 吨
-Ach% = sales_ton(Pn)/fcst_ton(Pn)
-SFA%
+会议2024/3/4
+    问题: 
+    项目文档 path
+    user story:
+        by Super Range是什么?
 
-1-ABS(FCST_Ton-Sales_Ton)/FCST_Ton
+    讲课:
+    Cube
+    1Nav(SA4) 
 
-SFA 计算? 
+    问题: 
+    1Nav 对不上SA4 因为订单会删掉,我们来对上
+    Cube里面是客户信息? Cube在哪里
 
-看当期 PTD
-SFA%:= 
-    1-SUMX(SKU,ABS(FCST_Ton-Sales_Ton))/SUM(FCST_Ton) -- 没有完整sales所以用fcst当tgt
-SFA Loss:= 
-    SUMX(SKU,ABS(FCST_Ton-Sales_Ton))/SUM(FCST_Ton)
-看往期 Final
-SFA%:= 
-    1-SUMX(SKU,ABS(FCST_Ton-Sales_Ton))/SUM(Sales_Ton) -- 没有完整sales所以用fcst当tgt
-SFA Loss:= 
-    SUMX(SKU,ABS(FCST_Ton-Sales_Ton))/SUM(Sales_Ton) 
-Sales表
+    P2DT,
+        invoice GSV, Invoice 前两个zhuangtai by SKU by Cust
+    P2Post
+        avg price list导致给出的AMT不准
 
-sales_order, date, SKU(number,name), foreign_key(pillar, national), unit, ton_per_unit, Amt, Net_amt
-fcst表
-SKU, foreign_key(pillar, national)
+    DC对应supply
+    by DC/Region
 
 
+tmp:
+1NAV路什么文档没给我呀
+<可用库存样本>.xlsx
+
+supply readiness?算起来比较复杂?复杂在哪?

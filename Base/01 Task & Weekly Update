@@ -106,47 +106,46 @@ universe
 
 -----------------------------------------------------------------------Weekly Report-------------------------------------
 今天
-    训练营
     pt 明早发你
 
 
-BRD 为什么做这件事情,  业务价值,  ROI
-PRD 多个Phase
-以交付单元
+    BRD 为什么做这件事情,  业务价值,  ROI
+    PRD 多个Phase
+    以交付单元
 
 
-必要素: 
-产出内容: 产出什么样, 要找人确认. 
-交互
-定义
+    必要素: 
+    产出内容: 产出什么样, 要找人确认. 
+    交互
+    定义
 
-数据相关: 
-字段取值
-公式
-指标库
+    数据相关: 
+    字段取值
+    公式
+    指标库
 
 
-要: 
-设计, 草图(粗略图)最快的方式搞出来
-    USE Case
-    UI逻辑: 
+    要: 
+    设计, 草图(粗略图)最快的方式搞出来
+        USE Case
+        UI逻辑: 
 
-数据需求:
-    命名:
-    表的需求: 关键信息. 
-        主数据以什么为标准? 
-        数据对接: 从哪个系统来, 成本和大致时间. 
+    数据需求:
+        命名:
+        表的需求: 关键信息. 
+            主数据以什么为标准? 
+            数据对接: 从哪个系统来, 成本和大致时间. 
 
-计算逻辑: 
-    DAX: 
-    assetizing DAX: 
+    计算逻辑: 
+        DAX: 
+        assetizing DAX: 
 
-建模: 
-    自己要写的
+    建模: 
+        自己要写的
 
-目前需求
+    目前需求
 
-背景
+    背景
 
 
 
@@ -186,17 +185,16 @@ PRD 多个Phase
 
 2024/03/04
     
-    LW: 
-        drafting  Wit Eye DP SP, understanding the BI logic
-    CW: 
-        meeting with DPSP and discuss for another round about new req.
-        EDA data cleasing
-        ANZ new DAX requirement from Morgen, along with solution
-            [1:20 PM] Tso, Kaiyuan (Contractor)
+    Last Week: 
+        understood the BI logic, drafted Wit Eye DP SP
+    Current Week: 
+        1.meeting with DPSP and discuss for another round about new req.
+        2.EDA data cleasing
+        3.ANZ new DAX requirement from Morgen, along with solution
             我的部分我会说
             DAX要改比较麻烦，然后我贴个帖子（里面是做法），再贴个demo（里面是实现）说明这样维护太复杂了。放弃。
             然后说自己1.分类DAX文件夹，2.给份计算文档。
-
+        4...
 
 
 

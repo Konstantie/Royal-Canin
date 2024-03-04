@@ -85,71 +85,13 @@ universe
 
 
 
-下周: 
-    文档性工作规范细化: (下周讨论)
-    流程, 需求确认, 提给alex
-
-    VET 
-    假设数据可以用
-        销量变化?  绝对值? 
-        如何组织数据, 回答销量? 
-
-    供应链项目
-
+Question
     给出不规范比例: 
-    
-    [12:35] Deng, Simon
-    今天问题 
     RC产品有哪几大系列/分类
-    RC中国有哪几个DC(仓库)
 
 
 -----------------------------------------------------------------------Weekly Report-------------------------------------
-今天
-    pt 明早发你
 
-
-    BRD 为什么做这件事情,  业务价值,  ROI
-    PRD 多个Phase
-    以交付单元
-
-
-    必要素: 
-    产出内容: 产出什么样, 要找人确认. 
-    交互
-    定义
-
-    数据相关: 
-    字段取值
-    公式
-    指标库
-
-
-    要: 
-    设计, 草图(粗略图)最快的方式搞出来
-        USE Case
-        UI逻辑: 
-
-    数据需求:
-        命名:
-        表的需求: 关键信息. 
-            主数据以什么为标准? 
-            数据对接: 从哪个系统来, 成本和大致时间. 
-
-    计算逻辑: 
-        DAX: 
-        assetizing DAX: 
-
-    建模: 
-        自己要写的
-
-    目前需求
-
-    背景
-
-
-
--------------------------Weekly-------------------------------------------------------------
 2024/02/12
     last week until weekend:
         CRM Data Explore SQL -- done, 
@@ -190,12 +132,12 @@ universe
     Current Week: 
         1.meeting with WitEye DP/SP and discuss for another round about new req. --> posetone to the next week hodling meeting at SHDC
         2. ☆ VET EDA data cleasing, 90% of this week workload
-        3.ANZ new DAX requirement from Morgen, along with solution
+        3.ANZ new DAX requirement from Morgen coming for CW NW, along with solution
             我的部分我会说
             DAX要改比较麻烦，然后我贴个帖子（里面是做法），再贴个demo（里面是实现）说明这样维护太复杂了。放弃。
             然后说自己1.分类DAX文件夹，2.给份计算文档。
         4.Jacob might have data modeling req.(heard from Simon,need to ask on today 4:30PM )
-        5.
+        5...
 
 
 

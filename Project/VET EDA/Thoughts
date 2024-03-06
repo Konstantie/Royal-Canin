@@ -2,7 +2,31 @@
 Task:
     先做个excel记录所有的列名
     处理拜访数据，永远拿最后一批数据 coalesce(max())
-    处理成门店为粒度的表，加事实列(销量)，加维度列(是否有泌尿疾病...)
+    处理成门店为粒度的表，
+        加事实列(销量)
+        加维度列(是否有泌尿疾病...)
+        城市(城市tier,门店所在城市人口或者消费水平)
+        客户分级
+
+---
+信息采集: 
+    doctor 医生信息
+    store 店铺信息
+    instru 设备信息
+    nutrition 营养采集信息
+    sales 销售额信息
+    diagno 看诊信息
+    train 培训信息
+        客户信息???
+其他数据源: 
+    visitee 人员信息
+    edu_cnt 教育次数
+    sales_match 匹配后销售报表
+    store_dim_cube 门店master以及2024P01销量 
+    visit_res 拜访结果
+
+
+
 
 Thought:
     <<产能绝对值>>和什么相关: 

@@ -1,3 +1,10 @@
+Display Name:	Tso, Kaiyuan (Contractor)
+Username*:	an154707
+WorkforceID:	C1541093
+Site Location:	SHG
+Email:	kaiyuan.tso@effem.com
+Initial Password:	rhx#_}1274KTY
+
 tableau token: dapi539ebf41cc20502b8f94f8f359de0adc
 adb-7538404107263477.1.databricks.azure.cn
 sql/protocolv1/o/7538404107263477/1015-115500-k5vlg896
@@ -9,3 +16,4 @@ df0 = spark.read.format("csv")\
     .option("header", "true")\
     .option("inferSchema", "true")\
     .load("dbfs:/FileStore/shared_uploads/mmm_test.csv")
+

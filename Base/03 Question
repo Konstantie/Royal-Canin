@@ -16,13 +16,16 @@ pyspark是不是相当于Stored Procedure?
 
 Alex:
 
+-- 有没有事务型 commit， roll back? ,deltalake???
 如果要参数是张表，能不能无缝切换pyspark和sql
-    a = spark.sql(select * from table)
-    select * from {a}
-有没有information_schema?
-有没有事务型 commit， roll back?
+    spark:a = spark.sql("select * into #aaa from table")
+    SQL： select * from {aaa}  temp：
 
-有没有案例？我看到一个有，但是介绍一下？√
+
+
+有没有 information_schema?
+
+有没有案例？我看到一个有，但是介绍一下？
 
 有没有 period 表和自然日期对应
 

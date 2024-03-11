@@ -9,6 +9,35 @@ PBI访问和权限:
     3.excel连pbi的dataset,想知道谁什么时候连过
 
 
+pyspark是不是相当于Stored Procedure?
+
+
+
+
+Alex:
+
+如果要参数是张表，能不能无缝切换pyspark和sql
+    a = spark.sql(select * from table)
+    select * from {a}
+有没有information_schema?
+有没有事务型 commit， roll back?
+
+有没有案例？我看到一个有，但是介绍一下？
+
+要不要看我目前遇到问题的案例？
+
+有没有 period 表和自然日期对应
+
+
+
+
+
+
+
+
+
+
+
 飞书/Lark使用：
     日本人已经有飞书账号，后来就通过VPN正常访问
     用也要翻墙吗？
